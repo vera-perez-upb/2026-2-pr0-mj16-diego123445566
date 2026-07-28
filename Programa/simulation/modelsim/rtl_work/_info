@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Programa\simulation\modelsim
+vPrueba
+!i10b 1
+Z1 !s100 QOdXofnUh[>Q_G@O`;T[O1
+ILk>P45_ghShCVhK58C]he0
+Z2 VChQ4LLCRZ03@m3N5DDPO71
+Z3 dC:\Programa\simulation\modelsim
+Z4 w1785254076
+Z5 8C:/Programa/Prueba.v
+Z6 FC:/Programa/Prueba.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1785275865.724000
+!s107 C:/Programa/Prueba.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Programa|C:/Programa/Prueba.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Programa -O0
+Z8 n@prueba
