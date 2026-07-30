@@ -1,0 +1,2 @@
+# Compile of Prueba.v was successful.
+vsim +altera -do Prueba_run_msim_rtl_verilog.do -l msim_transcript -gui work.Prueba

@@ -1,0 +1,74 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Prueba_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Programa {C:/Programa/Prueba.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Prueba
+# 
+# Top level modules:
+# 	Prueba
+# 
+vsim +altera -do Prueba_run_msim_rtl_verilog.do -l msim_transcript -gui work.Prueba
+# vsim +altera -do Prueba_run_msim_rtl_verilog.do -l msim_transcript -gui work.Prueba 
+# Loading work.Prueba
+# do Prueba_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Programa {C:/Programa/Prueba.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Prueba
+# 
+# Top level modules:
+# 	Prueba
+# 
+add wave -r /*
+force -freeze sim:/Prueba/A 0 0
+force -freeze sim:/Prueba/B 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Prueba/A 1 0
+force -freeze sim:/Prueba/B 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
